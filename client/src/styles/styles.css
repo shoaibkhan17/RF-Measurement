@@ -1,0 +1,31 @@
+.box {
+  height: 60vh;
+  width: 40vw;
+  box-shadow: rgb(145 158 171 / 24%) 0px 0px 2px 0px,
+    rgb(145 158 171 / 24%) 0px 16px 32px -4px;
+  border-radius: 2%;
+  position: relative;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  height: 2%;
+}
+
+.formContainer {
+  height: 50%;
+  padding: 10%;
+  /* margin-top: auto; */
+  margin-bottom: auto;
+}
+
+.buttonContainer {
+  height: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: absolute;
+  width: 80%;
+  bottom: 0px;
+}
