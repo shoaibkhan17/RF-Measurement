@@ -40,7 +40,7 @@ class TransmitterConfig extends React.Component {
       .then((res) => {
         this.setState({ files: res.data, selectedFile: res.data[0] });
       })
-      .catch((error) => this.console.log(error));
+      .catch((error) => console.log(error));
   }
 
   handleClick() {
