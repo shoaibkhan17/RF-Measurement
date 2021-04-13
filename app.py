@@ -38,7 +38,7 @@ def startTransmit():
     sampleRate = float(response['sampleRate'])
     selectedFile = response['selectedFile']
 
-    print("iPerf parameter")
+    print("USRP parameter")
     print(gain)
     print(cFreg)
     print(sampleRate)
